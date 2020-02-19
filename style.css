@@ -1,0 +1,54 @@
+html, body  {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(./images/w2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 84%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.count {
+    margin: 15px 0;
+}
+
+.countd {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.countd span {
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+}
